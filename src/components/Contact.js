@@ -42,15 +42,16 @@ export default function Contact() {
           createdAt: firebase.firestore.FieldValue.serverTimestamp(),
         })
         .then((response) => {
-          axios.post(
-            "https://us-central1-the-mall-site.cloudfunctions.net/sendEmail",
-            {
-              to: "info@veniceindia.com",
-              subject: `[Contact us] ${username}`,
-              html_content: `<html><h3>User details</h3><p><b>Name: </b>${username}</p><p><b>Email address: </b>${email}</p><p><b>Phone number: </b>${phone}</p><p><b>Message: </b>${message}</p></html>`,
-              bcc: "me@iarani.com",
-            }
-          );
+          console.log(response);
+          // axios.post(
+          //   "https://us-central1-the-mall-site.cloudfunctions.net/sendEmail",
+          //   {
+          //     to: "info@veniceindia.com",
+          //     subject: `[Contact us] ${username}`,
+          //     html_content: `<html><h3>User details</h3><p><b>Name: </b>${username}</p><p><b>Email address: </b>${email}</p><p><b>Phone number: </b>${phone}</p><p><b>Message: </b>${message}</p></html>`,
+          //     bcc: "me@iarani.com",
+          //   }
+          // );
         })
         .catch((e) => console.log("error", e))
         .finally(() => {
