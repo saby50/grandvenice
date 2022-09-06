@@ -5,14 +5,14 @@ import "firebase/storage";
 import "firebase/firestore";
 
 const firebaseConfig = {
-
-  apiKey: "AIzaSyCDWKCkOQlJAKc7Uc7Y_YiWuwPb-IfvRVo",
-  authDomain: "the-mall-site.firebaseapp.com",
-  databaseURL: "https://the-mall-site.firebaseio.com",
-  projectId: "the-mall-site",
-  storageBucket: "the-mall-site.appspot.com",
-  messagingSenderId: "914860133718",
-  appId: "1:914860133718:web:5b2a6c0abf117bbaa71af7",
+  
+  apiKey: "AIzaSyDMJ2t3cgqYrLBt8sZUNlqTSQfaGn2tPM8",
+  authDomain: "grandvenice-8a0f9.firebaseapp.com",
+  databaseURL: "https://grandvenice-8a0f9-default-rtdb.firebaseio.com",
+  projectId: "grandvenice-8a0f9",
+  storageBucket: "grandvenice-8a0f9.appspot.com",
+  messagingSenderId: "616035135555",
+  appId: "1:616035135555:web:2ff336d64a7758bbb224f6"
 
 };
 
