@@ -243,7 +243,7 @@ export default function Home() {
                       marginBottom: "10px",
                     }}
                   >
-                    Discover latest <br />
+                    Discover latestsss <br />
                     fashion trends.
                   </h3>
                   <p style={{ lineHeight: "1.1" }}>

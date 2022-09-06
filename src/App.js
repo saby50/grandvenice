@@ -34,7 +34,8 @@ function App() {
   return (
     <Router>
       <Switch>
-        
+        <Route exact path="/" component={Home} />
+        <Route exact path="/home" component={Home} />
         <Route exact path="/dining" component={Dining} />
         <Route exact path="/fashion" component={Fashion} />
         <Route exact path="/cafe" component={Cafe} />
